@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Recommandation Ex1</title>
+    </head>
+    <body>
+        <div>
+            <select id="person1">
+                    <option value="Lisa Rose">Lisa Rose</option>
+                    <option value="Gene Seymour">Gene Seymour</option>
+                    <option value="Michael Phillips">Michael Phillips</option>
+                    <option value="Claudia Puig">Claudia Puig</option>
+                    <option value="Mick LaSalle">Mick LaSalle</option>
+                    <option value="Jack Matthews">Jack Matthews</option>
+                    <option value="Toby">Toby</option>
+                </select>
+                <select id="person2">
+                    <option value="Lisa Rose">Lisa Rose</option>
+                    <option value="Gene Seymour">Gene Seymour</option>
+                    <option value="Michael Phillips">Michael Phillips</option>
+                    <option value="Claudia Puig">Claudia Puig</option>
+                    <option value="Mick LaSalle">Mick LaSalle</option>
+                    <option value="Jack Matthews">Jack Matthews</option>
+                    <option value="Toby">Toby</option>
+                </select>
+                <button id="buttondistance">Calculate distance</button>
+                <button id="buttonpearson">Calculate pearson</button>
+                <button id="topmatches">Top Matches</button>
+                <button id="recommendations">Get Recommendations</button>
+                <input type="text" id="endresult">
+        </div>
+        <div id="resultmatches">
+        </div>
+        <div id="resultrecommendation">
+        </div>
+
+            <script src="./testData.js" charset="utf-8"></script>
+            <script src="./ramble.js" charset="utf-8"></script>
+            <script type="text/javascript">
+                person1 = document.getElementById('person1');
+                person2 = document.getElementById('person2');
+                engine = new Ramble();
+                document.getElementById('buttondistance').addEventListener('click', function(event) {
+                    document.getElementById('endresult').value = engine.similarityDistance(critics, person1.value, person2.value);
+                });
+                document.getElementById('buttonpearson').addEventListener('click', function(event) {
+                    document.getElementById('endresult').value = engine.similarityPearson(critics, person1.value, person2.value);
+                });
+                document.getElementById('topmatches').addEventListener('click', function(event) {
+                    var topM = engine.topMatches(critics, person1.value);
+                    var html = "";
+                    topM.forEach(function(item) {
+                        html += item[0] + " : " + item[1] + "<br>";
+                    });
+                    document.getElementById('resultmatches').innerHTML = html;
+                });
+                document.getElementById('recommendations').addEventListener('click', function(event) {
+                    var recommendations = engine.getRecommendations(critics, person1.value);
+                    var html = "";
+                    recommendations.forEach(function(item) {
+                        html += item[0] + " : " + item[1] + "<br>";
+                    });
+                    document.getElementById('resultrecommendation').innerHTML = html;
+                });
+            </script>
+    </body>
+</html>
