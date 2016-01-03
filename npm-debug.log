@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish', '.' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/fabrice/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /home/fabrice/.npm/1f1177db-tar.lock
+15 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+16 verbose lock tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz /home/fabrice/.npm/89e4de98-79616-0-6835662121884525-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+20 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+21 verbose tar unpack /home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+22 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+23 verbose lock tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package /home/fabrice/.npm/de28bcf2-79616-0-6835662121884525-package.lock
+24 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+25 verbose lock tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz /home/fabrice/.npm/89e4de98-79616-0-6835662121884525-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+33 silly gunzTarPerm extractEntry ramble.js
+34 silly gunzTarPerm modified mode [ 'ramble.js', 436, 420 ]
+35 silly gunzTarPerm extractEntry testData.js
+36 silly gunzTarPerm modified mode [ 'testData.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry test.html
+38 silly gunzTarPerm modified mode [ 'test.html', 436, 420 ]
+39 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+40 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+41 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+42 silly lockFile 89e4de98-79616-0-6835662121884525-tmp-tgz tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/tmp.tgz
+43 verbose tar pack [ '/home/fabrice/.npm/ramblejs/1.0.0/package.tgz',
+43 verbose tar pack   '/home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package' ]
+44 verbose tarball /home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+45 verbose folder /home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+46 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+47 verbose lock tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package /home/fabrice/.npm/de28bcf2-79616-0-6835662121884525-package.lock
+48 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+49 verbose lock tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz /home/fabrice/.npm/a3514ab5-e-npm-ramblejs-1-0-0-package-tgz.lock
+50 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+51 silly lockFile de28bcf2-79616-0-6835662121884525-package tar:///home/fabrice/tmp/npm-10622-tFEcKUw0/1451234279616-0.6835662121884525/package
+52 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+53 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+54 silly lockFile 7bbc5ca8-brice-npm-ramblejs-1-0-0-package /home/fabrice/.npm/ramblejs/1.0.0/package
+55 verbose lock /home/fabrice/.npm/ramblejs/1.0.0/package /home/fabrice/.npm/7bbc5ca8-brice-npm-ramblejs-1-0-0-package.lock
+56 silly lockFile 7bbc5ca8-brice-npm-ramblejs-1-0-0-package /home/fabrice/.npm/ramblejs/1.0.0/package
+57 silly lockFile 7bbc5ca8-brice-npm-ramblejs-1-0-0-package /home/fabrice/.npm/ramblejs/1.0.0/package
+58 verbose tar unpack /home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+59 silly lockFile 7cdd9cdb-brice-npm-ramblejs-1-0-0-package tar:///home/fabrice/.npm/ramblejs/1.0.0/package
+60 verbose lock tar:///home/fabrice/.npm/ramblejs/1.0.0/package /home/fabrice/.npm/7cdd9cdb-brice-npm-ramblejs-1-0-0-package.lock
+61 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+62 verbose lock tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz /home/fabrice/.npm/a3514ab5-e-npm-ramblejs-1-0-0-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm extractEntry ramble.js
+68 silly gunzTarPerm extractEntry testData.js
+69 silly gunzTarPerm extractEntry test.html
+70 silly lockFile 7cdd9cdb-brice-npm-ramblejs-1-0-0-package tar:///home/fabrice/.npm/ramblejs/1.0.0/package
+71 silly lockFile 7cdd9cdb-brice-npm-ramblejs-1-0-0-package tar:///home/fabrice/.npm/ramblejs/1.0.0/package
+72 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+73 silly lockFile a3514ab5-e-npm-ramblejs-1-0-0-package-tgz tar:///home/fabrice/.npm/ramblejs/1.0.0/package.tgz
+74 verbose chmod /home/fabrice/.npm/ramblejs/1.0.0/package.tgz 644
+75 verbose chown /home/fabrice/.npm/ramblejs/1.0.0/package.tgz [ 1000, 1000 ]
+76 silly lockFile 3a52ce78- .
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'ramblejs',
+78 silly publish   version: '1.0.0',
+78 silly publish   description: 'give you a set of recommandation function for your web application (nodejs or browser)',
+78 silly publish   main: 'ramble.js',
+78 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+78 silly publish   repository:
+78 silly publish    { type: 'git',
+78 silly publish      url: 'git://github.com/fabricekabongo/ramble.git' },
+78 silly publish   keywords: [ 'recommandation', 'machine', 'learning', 'ai' ],
+78 silly publish   author:
+78 silly publish    { name: 'Fabrice Kabongo',
+78 silly publish      email: 'fabrice.k.kabongo@gmail.com' },
+78 silly publish   license: 'MIT',
+78 silly publish   bugs: { url: 'https://github.com/fabricekabongo/ramble/issues' },
+78 silly publish   readme: '# ramble\nthis is a set of method to build recommandation system in javascript\n',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   _id: 'ramblejs@1.0.0',
+78 silly publish   dist: { shasum: 'f2b31e61165e50914261f64762428b30a7b02896' },
+78 silly publish   _from: '.' }
+79 error need auth auth and email required for publishing
+79 error need auth You need to authorize this machine using `npm adduser`
+80 error System Linux 3.13.0-71-generic
+81 error command "/usr/bin/nodejs" "/usr/bin/npm" "publish" "."
+82 error cwd /home/fabrice/Document/project/ramble
+83 error node -v v0.10.25
+84 error npm -v 1.3.10
+85 error code ENEEDAUTH
+86 verbose exit [ 1, true ]

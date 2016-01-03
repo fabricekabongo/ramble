@@ -1,0 +1,24 @@
+{
+  "name": "ramblejs",
+  "version": "1.0.0",
+  "description": "give you a set of recommandation function for your web application (nodejs or browser)",
+  "main": "ramble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabricekabongo/ramble.git"
+  },
+  "keywords": [
+    "recommandation",
+    "machine",
+    "learning",
+    "ai"
+  ],
+  "author": "Fabrice Kabongo <fabrice.k.kabongo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabricekabongo/ramble/issues"
+  }
+}
