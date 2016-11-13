@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fabricekabongo/ramble/issues"
+  },
+  "dependencies": {
+    "hashmap": "^2.0.6"
   }
 }

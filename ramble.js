@@ -1,3 +1,5 @@
+var Map = require('hashmap');
+
 function Ramble() {
     this.similarityDistance = function(pref, person1, person2) {
         var squares = 0;
