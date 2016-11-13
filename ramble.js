@@ -102,3 +102,5 @@ function Ramble() {
     }
 
 }
+
+module.exports = Ramble;
