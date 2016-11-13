@@ -1,6 +1,6 @@
 {
   "name": "ramblejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "give you a set of recommandation function for your web application (nodejs or browser)",
   "main": "ramble.js",
   "scripts": {
